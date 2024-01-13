@@ -9,7 +9,12 @@ This is an attempt to reimplement JLSD technique, taken from this paper: A Joint
 3. Change the parameters accordingly in `experiments/base_model/params.json`. We recommend keeping batch size of 4 and sequence length of 512, with 6 epochs, if GPU's VRAM is around 11 GB.
 4. Check script.sh for training and testing command
 
-### Todo
+## Django RestAPI
+
+There is code inside folder kwsite to build a RestAPI using Django. 
+To run: `python manage.py runserver`
+
+## Todo
 
 We only considered a linear layer on top of BERT embeddings. We need to see whether SciBERT + BiLSTM + CRF makes a difference.
 
