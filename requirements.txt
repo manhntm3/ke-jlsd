@@ -1,0 +1,4 @@
+transformers
+pytorch_pretrained_bert==0.4.0
+sentence-transformers
+django
